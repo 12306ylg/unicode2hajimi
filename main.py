@@ -37,4 +37,4 @@ if input_text_de:
         st.write('解密后的文本: ')
         st.write(decrypted_text)
     except OverflowError:
-        st.error('非法字符')
+    except OverflowError:st.error('非法字符')
