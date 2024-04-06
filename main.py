@@ -36,5 +36,4 @@ if input_text_de:
         decrypted_text = ''.join(decrypt_char(c) for c in input_text_de.split())
         st.write('解密后的文本: ')
         st.write(decrypted_text)
-    except OverflowError:
     except OverflowError:st.error('非法字符')
