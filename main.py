@@ -2,7 +2,6 @@ import streamlit as st
 def decimal_to_base3(decimal_number:int):
     if decimal_number == 0:
         return "0"
-    
     base3_number = ""
     
     while decimal_number > 0:
@@ -23,7 +22,7 @@ def decrypt_char(encrypted):
 
 
 # Streamlit 应用代码
-st.title('Unicode 加密和解密')
+st.title('Unicode 加密和解密->🐱')
 
 input_text_en = st.text_input('输入文本进行加密:')
 input_text_de = st.text_input('输入文本进行解密:')
